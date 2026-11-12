@@ -1,0 +1,31 @@
+Season,Model,Games,Game_LogLoss,Game_Brier,Game_Accuracy,Adv_Brier,Adv_LogLoss,P_Actual_Champion
+ALL,"B1 TeamRankings rating, constant volatility",335,0.54752,0.18405,0.71642,0.07049,0.23335,0.11292
+ALL,"M0 Strength, constant volatility",335,0.55423,0.18742,0.71045,0.07144,0.23574,0.11752
+ALL,M1 Strength + team volatility,335,0.55865,0.18817,0.71045,0.0715,0.23751,0.10909
+ALL,M2 Strength + style-predicted volatility,335,0.5541,0.18735,0.71045,0.07142,0.2359,0.11596
+ALL,"M3 Strength, tournament-widened volatility (LOSO)",335,0.55412,0.18779,0.71045,0.07184,0.23611,0.10248
+2022,"M0 Strength, constant volatility",67,0.66228,0.22833,0.65672,0.09209,0.31191,0.0614
+2022,M1 Strength + team volatility,67,0.65999,0.22612,0.65672,0.09201,0.31291,0.0637
+2022,M2 Strength + style-predicted volatility,67,0.66303,0.22802,0.65672,0.09183,0.31268,0.0626
+2022,"B1 TeamRankings rating, constant volatility",67,0.64341,0.21938,0.70149,0.08913,0.30016,0.0669
+2022,"M3 Strength, tournament-widened volatility (LOSO)",67,0.64322,0.22405,0.65672,0.08991,0.2991,0.0626
+2023,"M0 Strength, constant volatility",67,0.65031,0.21431,0.65672,0.086,0.29251,0.0453
+2023,M1 Strength + team volatility,67,0.65844,0.21465,0.65672,0.08512,0.2949,0.047
+2023,M2 Strength + style-predicted volatility,67,0.64694,0.2136,0.65672,0.08574,0.2913,0.046
+2023,"B1 TeamRankings rating, constant volatility",67,0.64827,0.21291,0.65672,0.08503,0.2943,0.0499
+2023,"M3 Strength, tournament-widened volatility (LOSO)",67,0.63285,0.21271,0.65672,0.08541,0.28556,0.04505
+2024,"M0 Strength, constant volatility",67,0.57183,0.19717,0.73134,0.07565,0.23941,0.10795
+2024,M1 Strength + team volatility,67,0.58168,0.20067,0.73134,0.07598,0.24304,0.10575
+2024,M2 Strength + style-predicted volatility,67,0.57032,0.19698,0.73134,0.07554,0.23853,0.1079
+2024,"B1 TeamRankings rating, constant volatility",67,0.56217,0.1926,0.73134,0.07386,0.23479,0.1225
+2024,"M3 Strength, tournament-widened volatility (LOSO)",67,0.56127,0.19374,0.73134,0.07418,0.23468,0.10125
+2025,"M0 Strength, constant volatility",67,0.42095,0.13626,0.79104,0.04798,0.15663,0.1291
+2025,M1 Strength + team volatility,67,0.42904,0.13927,0.79104,0.04905,0.15962,0.1284
+2025,M2 Strength + style-predicted volatility,67,0.42357,0.13704,0.79104,0.0483,0.15786,0.1285
+2025,"B1 TeamRankings rating, constant volatility",67,0.43185,0.14039,0.76119,0.05004,0.16341,0.1011
+2025,"M3 Strength, tournament-widened volatility (LOSO)",67,0.45948,0.1482,0.79104,0.05291,0.17586,0.11195
+2026,"M0 Strength, constant volatility",67,0.46578,0.16102,0.71642,0.0555,0.17823,0.24385
+2026,M1 Strength + team volatility,67,0.46409,0.16014,0.71642,0.05534,0.17707,0.2006
+2026,M2 Strength + style-predicted volatility,67,0.46663,0.16109,0.71642,0.05569,0.17914,0.2348
+2026,"B1 TeamRankings rating, constant volatility",67,0.45189,0.15498,0.73134,0.0544,0.1741,0.2242
+2026,"M3 Strength, tournament-widened volatility (LOSO)",67,0.47377,0.16025,0.71642,0.05681,0.18533,0.19155

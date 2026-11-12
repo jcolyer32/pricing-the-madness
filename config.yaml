@@ -1,0 +1,113 @@
+# =====================================================================
+#  NCAAM DATA PIPELINE — CONFIG
+#  This is the ONLY file you should need to edit week to week.
+#  Add/remove stats, change dates, turn sources on/off — all here.
+# =====================================================================
+
+season:
+  # Season is named by the year it ENDS (2026-27 season = 2027), same as KenPom.
+  year: 2027
+  start_date: 2026-11-02      # first day of games (used by ESPN game log)
+  end_date:   2027-04-07      # day after the title game
+  early_season_days: 28       # first 4 weeks: teams with no games yet may have blank stats
+
+output:
+  feed_workbook: output/ncaam_data.xlsx   # <- point Power Query at this file
+  csv_folder:    output/csv               # same tables as CSV (optional use)
+  snapshot_folder: data/snapshots         # dated copy of every run (for backtesting)
+  last_good_folder: data/last_good        # fallback if a source fails
+
+http:
+  delay_seconds: 3          # pause between requests to the same site (be polite)
+  host_delays:              # per-site overrides (ESPN's JSON feed is built for lots of calls)
+    site.api.espn.com: 1
+  timeout_seconds: 30
+  retries: 3
+  cache_minutes: 60         # re-running within an hour re-uses pages instead of re-downloading
+
+# ---------------------------------------------------------------------
+#  SOURCES — set enabled: false to skip one.
+# ---------------------------------------------------------------------
+sources:
+
+  kenpom:
+    enabled: true
+    url: https://kenpom.com/      # public front page only, one request per run
+
+  teamrankings:
+    enabled: true
+    # Each entry = one page on teamrankings.com/ncaa-basketball/stat/<slug>
+    # "name" becomes the column prefix in the TR_Stats sheet. Add any stat page
+    # you like: open it in your browser, copy the last part of the URL.
+    stats:
+      - {slug: points-per-game,                    name: PPG}
+      - {slug: opponent-points-per-game,           name: OppPPG}
+      - {slug: average-scoring-margin,             name: Margin}
+      - {slug: offensive-efficiency,               name: OffEff}
+      - {slug: defensive-efficiency,               name: DefEff}
+      - {slug: possessions-per-game,               name: Poss}
+      - {slug: effective-field-goal-pct,           name: eFG}
+      - {slug: opponent-effective-field-goal-pct,  name: OppeFG}
+      - {slug: three-point-pct,                    name: 3P_Pct}
+      - {slug: turnovers-per-possession,           name: TOV_Poss}
+      - {slug: offensive-rebounding-pct,           name: ORB_Pct}
+      - {slug: defensive-rebounding-pct,           name: DRB_Pct}
+    # Which columns to keep from each stat page. Options on TR stat pages:
+    #   Season, Last3, Last1, Home, Away, PrevSeason
+    keep_columns: [Season, Last3, Home, Away]
+    # Ranking pages (teamrankings.com/ncaa-basketball/ranking/<slug>)
+    rankings:
+      - {slug: predictive-by-other, name: TR_Predictive}
+
+  espn:
+    enabled: true
+    # Game results for the whole season, fetched incrementally (only new days).
+    game_log: true
+    # Upcoming games for the next N days (with lines when ESPN has them).
+    schedule_days_ahead: 7
+    # Re-check the last N days on every run so late-finishing games get their finals.
+    recheck_days: 2
+
+# ---------------------------------------------------------------------
+#  MODEL SHEETS — tables laid out exactly how your model reads them.
+#  Each becomes its own sheet in the feed workbook (one row per team).
+#  Column types:
+#    stat:    TeamRankings stat slug  (split: Season/Last3/Home/Away, scale: multiply by)
+#    ranking: TeamRankings ranking slug (field: Rating)
+#    diff:    [A, B]  -> column A minus column B
+#    master:  any column already in the Master sheet (e.g. KP_AdjT)
+#  Pages listed here are fetched automatically — no need to add them above.
+# ---------------------------------------------------------------------
+model_sheets:
+  Modelv26:
+    - {header: Win %,            stat: win-pct-all-games}                       # dependent variable, already 0.750
+    - {header: SOS,              ranking: schedule-strength-by-other, field: Rating}
+    - {header: OFF Efficiency,   stat: offensive-efficiency}
+    - {header: DEF Efficiency,   stat: defensive-efficiency}
+    - {header: Effective FG %,   stat: effective-field-goal-pct, scale: 0.01}   # 54.0% -> 0.540
+    - {header: Floor %,          stat: floor-percentage,          scale: 0.01}   # 56.3% -> 0.563
+    - {header: FG%,              stat: shooting-pct}                             # stays 48.0
+    - {header: REB,              stat: total-rebounds-per-game}
+    - {header: TO,               stat: turnovers-per-game}
+    - {header: 3PM,              stat: three-pointers-made-per-game}
+    - {header: OFF/DEF Diff,     diff: [OFF Efficiency, DEF Efficiency]}
+
+  # Modelv27 — academic specification: opponent-adjusted efficiency (KenPom) +
+  # Dean Oliver's Four Factors for offense AND defense (all per-possession rates,
+  # so pace doesn't distort them). Percentages stored as decimals.
+  Modelv27:
+    - {header: Win %,            stat: win-pct-all-games}                        # dependent variable
+    - {header: AdjEM,            master: KP_NetRtg}       # KenPom adj. efficiency margin (pts/100 poss)
+    - {header: AdjO,             master: KP_ORtg}         # adj. offense, pts scored per 100 poss
+    - {header: AdjD,             master: KP_DRtg}         # adj. defense, pts allowed per 100 poss (lower = better)
+    - {header: Tempo,            master: KP_AdjT}         # adj. possessions per 40 min
+    - {header: SOS AdjEM,        master: KP_SOS_NetRtg}   # KenPom strength of schedule
+    - {header: Luck,             master: KP_Luck}         # wins above expectation (control)
+    - {header: Off eFG,          stat: effective-field-goal-pct,          scale: 0.01}
+    - {header: Off TOV,          stat: turnovers-per-possession,          scale: 0.01}
+    - {header: Off ORB,          stat: offensive-rebounding-pct,          scale: 0.01}
+    - {header: Off FTR,          stat: free-throw-rate,                   scale: 0.01}
+    - {header: Def eFG,          stat: opponent-effective-field-goal-pct, scale: 0.01}
+    - {header: Def TOV,          stat: opponent-turnovers-per-possession, scale: 0.01}
+    - {header: Def DRB,          stat: defensive-rebounding-pct,          scale: 0.01}
+    - {header: Def FTR,          stat: opponent-free-throw-rate,          scale: 0.01}

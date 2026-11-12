@@ -1,0 +1,156 @@
+# Hand-written name fixes. One line per spelling that auto-matching can't handle.
+# source      = kenpom | teamrankings | *   (* = applies to every source)
+# source_name = the name exactly as that site shows it
+# espn_team   = ESPN's name for the team (location like "UConn", full name, or ESPN id number)
+# When a run lists a team in the _Unmatched sheet, add a line here and re-run.
+source,source_name,espn_team
+*,Connecticut,UConn
+*,Mississippi,Ole Miss
+*,Miami FL,Miami
+*,Miami (FL),Miami
+*,Miami OH,Miami (OH)
+*,Miami (OH),Miami (OH)
+*,Southern California,USC
+*,Central Florida,UCF
+*,Pittsburgh,Pittsburgh
+*,Penn,Pennsylvania
+*,U Penn,Pennsylvania
+*,Massachusetts,Massachusetts
+*,U Mass,Massachusetts
+*,Mass Lowell,UMass Lowell
+*,Illinois Chicago,UIC
+*,IL-Chicago,UIC
+*,Nebraska Omaha,Omaha
+*,Neb Omaha,Omaha
+*,UMKC,Kansas City
+*,Tennessee Martin,UT Martin
+*,TN Martin,UT Martin
+*,SIUE,SIU Edwardsville
+*,SIU Edward,SIU Edwardsville
+*,Louisiana Monroe,UL Monroe
+*,Texas A&M Corpus Chris,Texas A&M-Corpus Christi
+*,TX A&M-CC,Texas A&M-Corpus Christi
+*,Texas A&M Commerce,East Texas A&M
+*,UT Rio Grande Valley,UT Rio Grande Valley
+*,Texas Rio Grande Valley,UT Rio Grande Valley
+*,TX-Pan Am,UT Rio Grande Valley
+*,TX-Arlington,UT Arlington
+*,TX-San Ant,UTSA
+*,TX El Paso,UTEP
+*,TX Christian,TCU
+*,S Methodist,SMU
+*,Albany,UAlbany
+*,Hawaii,Hawai'i
+*,Nicholls St.,Nicholls
+*,McNeese St.,McNeese
+*,Appalachian St.,App State
+*,App State,App State
+*,College of Charleston,Charleston
+*,Col Charlestn,Charleston
+*,Sam Houston St.,Sam Houston
+*,Sam Hous St,Sam Houston
+*,Grambling St.,Grambling
+*,Grambling St,Grambling
+*,IU Indy,IU Indianapolis
+*,IUPUI,IU Indianapolis
+*,IPFW,Purdue Fort Wayne
+*,Fort Wayne,Purdue Fort Wayne
+*,FIU,Florida International
+*,Fla Intl,Florida International
+*,Fla Atlantic,Florida Atlantic
+*,Fla Gulf Cst,Florida Gulf Coast
+*,Loyola Chicago,Loyola Chicago
+*,Loyola-Chi,Loyola Chicago
+*,Loyola MD,Loyola Maryland
+*,Loyola Mymt,Loyola Marymount
+*,Detroit,Detroit Mercy
+*,Green Bay,Green Bay
+*,WI-Grn Bay,Green Bay
+*,Milwaukee,Milwaukee
+*,WI-Milwkee,Milwaukee
+*,Seattle,Seattle U
+*,St. Thomas,St. Thomas-Minnesota
+*,Queens,Queens University
+*,LIU,Long Island University
+*,LIU Brooklyn,Long Island University
+*,Arkansas Pine Bluff,Arkansas-Pine Bluff
+*,Ark Pine Bl,Arkansas-Pine Bluff
+*,Bethune Cookman,Bethune-Cookman
+*,Beth-Cook,Bethune-Cookman
+*,Maryland Eastern Shore,Maryland-Eastern Shore
+*,Maryland ES,Maryland-Eastern Shore
+*,Mississippi Valley St.,Mississippi Valley State
+*,Miss Val St,Mississippi Valley State
+*,Southeast Missouri,Southeast Missouri State
+*,SE Missouri,Southeast Missouri State
+*,Southern Miss,Southern Miss
+*,S Mississippi,Southern Miss
+*,Stephen F. Austin,Stephen F. Austin
+*,SF Austin,Stephen F. Austin
+*,Gardner Webb,Gardner-Webb
+*,Gard-Webb,Gardner-Webb
+*,VA Military,VMI
+*,Geo Mason,George Mason
+*,Geo Wshgtn,George Washington
+*,Boston Col,Boston College
+*,Houston Chr,Houston Christian
+*,Incar Word,Incarnate Word
+*,Grd Canyon,Grand Canyon
+*,Lg Beach St,Long Beach State
+*,Wash State,Washington State
+*,Miss State,Mississippi State
+*,GA Tech,Georgia Tech
+*,VA Tech,Virginia Tech
+*,LA Tech,Louisiana Tech
+*,GA Southern,Georgia Southern
+*,UCSB,UC Santa Barbara
+*,NC-Asheville,UNC Asheville
+*,NC-Grnsboro,UNC Greensboro
+*,NC-Wilmgton,UNC Wilmington
+*,Charl South,Charleston Southern
+*,Abl Christian,Abilene Christian
+*,Jksnville St,Jacksonville State
+*,E Washingtn,Eastern Washington
+*,Youngs St,Youngstown State
+*,St Bonavent,St. Bonaventure
+*,Mt St Marys,Mount St. Mary's
+*,Sac State,Sacramento State
+*,Utah Val St,Utah Valley
+*,Utah Valley St.,Utah Valley
+*,CS Bakersfld,Cal State Bakersfield
+*,Cal St. Bakersfield,Cal State Bakersfield
+*,Cal St. Fullerton,Cal State Fullerton
+*,Cal St. Northridge,Cal State Northridge
+*,CS Fullerton,Cal State Fullerton
+*,CS Northridge,Cal State Northridge
+*,Central Conn,Central Connecticut
+*,Central Ark,Central Arkansas
+*,S Car State,South Carolina State
+*,N Mex State,New Mexico State
+*,N Hampshire,New Hampshire
+# added after first live run (ESPN id used as the target)
+*,New Orleans,2443
+*,Southeastern Louisiana,2545
+*,SE Louisiana,2545
+teamrankings,CS Bakersfield,2934
+teamrankings,Coastal Car,324
+teamrankings,F Dickinson,161
+teamrankings,Georgia So,290
+teamrankings,J Madison,256
+teamrankings,Middle Tenn,2393
+teamrankings,N Iowa,2460
+teamrankings,SE Missouri St,2546
+teamrankings,S Utah,253
+teamrankings,Tenn Tech,2635
+teamrankings,Texas So,2640
+teamrankings,W Kentucky,98
+# schools that moved to/from D-I (not in ESPN's current team list) -> ESPN id
+*,Queens,2511
+*,St Francis PA,2598
+*,Saint Francis,2598
+*,St Fran (NY),2597
+*,St. Francis Brooklyn,2597
+*,Lindenwood,2815
+*,S Indiana,88
+*,Southern Indiana,88
+*,Hartford,42

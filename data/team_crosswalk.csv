@@ -1,0 +1,736 @@
+source,source_name,ESPN_ID,Team,match_type
+kenpom,Abilene Christian,2000,Abilene Christian,exact
+kenpom,Air Force,2005,Air Force,exact
+kenpom,Akron,2006,Akron,exact
+kenpom,Alabama,333,Alabama,exact
+kenpom,Alabama A&M,2010,Alabama A&M,exact
+kenpom,Alabama St.,2011,Alabama State,exact
+kenpom,Albany,399,UAlbany,alias
+kenpom,Alcorn St.,2016,Alcorn State,exact
+kenpom,American,44,American University,exact
+kenpom,Appalachian St.,2026,App State,alias
+kenpom,Arizona,12,Arizona,exact
+kenpom,Arizona St.,9,Arizona State,exact
+kenpom,Arkansas,8,Arkansas,exact
+kenpom,Arkansas Pine Bluff,2029,Arkansas-Pine Bluff,alias
+kenpom,Arkansas St.,2032,Arkansas State,exact
+kenpom,Army,349,Army,exact
+kenpom,Auburn,2,Auburn,exact
+kenpom,Austin Peay,2046,Austin Peay,exact
+kenpom,BYU,252,BYU,exact
+kenpom,Ball St.,2050,Ball State,exact
+kenpom,Baylor,239,Baylor,exact
+kenpom,Bellarmine,91,Bellarmine,exact
+kenpom,Belmont,2057,Belmont,exact
+kenpom,Bethune Cookman,2065,Bethune-Cookman,alias
+kenpom,Binghamton,2066,Binghamton,exact
+kenpom,Boise St.,68,Boise State,exact
+kenpom,Boston College,103,Boston College,exact
+kenpom,Boston University,104,Boston University,exact
+kenpom,Bowling Green,189,Bowling Green,exact
+kenpom,Bradley,71,Bradley,exact
+kenpom,Brown,225,Brown,exact
+kenpom,Bryant,2803,Bryant,exact
+kenpom,Bucknell,2083,Bucknell,exact
+kenpom,Buffalo,2084,Buffalo,exact
+kenpom,Butler,2086,Butler,exact
+kenpom,CSUN,2463,Cal State Northridge,exact
+kenpom,Cal Baptist,2856,California Baptist,fuzzy
+kenpom,Cal Poly,13,Cal Poly,exact
+kenpom,Cal St. Bakersfield,2934,Cal State Bakersfield,alias
+kenpom,Cal St. Fullerton,2239,Cal State Fullerton,alias
+kenpom,California,25,California,exact
+kenpom,Campbell,2097,Campbell,exact
+kenpom,Canisius,2099,Canisius,exact
+kenpom,Central Arkansas,2110,Central Arkansas,exact
+kenpom,Central Connecticut,2115,Central Connecticut,exact
+kenpom,Central Michigan,2117,Central Michigan,exact
+kenpom,Charleston,232,Charleston,exact
+kenpom,Charleston Southern,2127,Charleston Southern,exact
+kenpom,Charlotte,2429,Charlotte,exact
+kenpom,Chattanooga,236,Chattanooga,exact
+kenpom,Chicago St.,2130,Chicago State,exact
+kenpom,Cincinnati,2132,Cincinnati,exact
+kenpom,Clemson,228,Clemson,exact
+kenpom,Cleveland St.,325,Cleveland State,exact
+kenpom,Coastal Carolina,324,Coastal Carolina,exact
+kenpom,Colgate,2142,Colgate,exact
+kenpom,Colorado,38,Colorado,exact
+kenpom,Colorado St.,36,Colorado State,exact
+kenpom,Columbia,171,Columbia,exact
+kenpom,Connecticut,41,UConn,alias
+kenpom,Coppin St.,2154,Coppin State,exact
+kenpom,Cornell,172,Cornell,exact
+kenpom,Creighton,156,Creighton,exact
+kenpom,Dartmouth,159,Dartmouth,exact
+kenpom,Davidson,2166,Davidson,exact
+kenpom,Dayton,2168,Dayton,exact
+kenpom,DePaul,305,DePaul,exact
+kenpom,Delaware,48,Delaware,exact
+kenpom,Delaware St.,2169,Delaware State,exact
+kenpom,Denver,2172,Denver,exact
+kenpom,Detroit Mercy,2174,Detroit Mercy,exact
+kenpom,Drake,2181,Drake,exact
+kenpom,Drexel,2182,Drexel,exact
+kenpom,Duke,150,Duke,exact
+kenpom,Duquesne,2184,Duquesne,exact
+kenpom,East Carolina,151,East Carolina,exact
+kenpom,East Tennessee St.,2193,East Tennessee State,exact
+kenpom,East Texas A&M,2837,East Texas A&M,exact
+kenpom,Eastern Illinois,2197,Eastern Illinois,exact
+kenpom,Eastern Kentucky,2198,Eastern Kentucky,exact
+kenpom,Eastern Michigan,2199,Eastern Michigan,exact
+kenpom,Eastern Washington,331,Eastern Washington,exact
+kenpom,Elon,2210,Elon,exact
+kenpom,Evansville,339,Evansville,exact
+kenpom,FIU,2229,Florida International,alias
+kenpom,Fairfield,2217,Fairfield,exact
+kenpom,Fairleigh Dickinson,161,Fairleigh Dickinson,exact
+kenpom,Florida,57,Florida,exact
+kenpom,Florida A&M,50,Florida A&M,exact
+kenpom,Florida Atlantic,2226,Florida Atlantic,exact
+kenpom,Florida Gulf Coast,526,Florida Gulf Coast,exact
+kenpom,Florida St.,52,Florida State,exact
+kenpom,Fordham,2230,Fordham,exact
+kenpom,Fresno St.,278,Fresno State,exact
+kenpom,Furman,231,Furman,exact
+kenpom,Gardner Webb,2241,Gardner-Webb,alias
+kenpom,George Mason,2244,George Mason,exact
+kenpom,George Washington,45,George Washington,exact
+kenpom,Georgetown,46,Georgetown,exact
+kenpom,Georgia,61,Georgia,exact
+kenpom,Georgia Southern,290,Georgia Southern,exact
+kenpom,Georgia St.,2247,Georgia State,exact
+kenpom,Georgia Tech,59,Georgia Tech,exact
+kenpom,Gonzaga,2250,Gonzaga,exact
+kenpom,Grambling St.,2755,Grambling,alias
+kenpom,Grand Canyon,2253,Grand Canyon,exact
+kenpom,Green Bay,2739,Green Bay,alias
+kenpom,Hampton,2261,Hampton,exact
+kenpom,Harvard,108,Harvard,exact
+kenpom,Hawaii,62,Hawai'i,alias
+kenpom,High Point,2272,High Point,exact
+kenpom,Hofstra,2275,Hofstra,exact
+kenpom,Holy Cross,107,Holy Cross,exact
+kenpom,Houston,248,Houston,exact
+kenpom,Houston Christian,2277,Houston Christian,alias
+kenpom,Howard,47,Howard,exact
+kenpom,IU Indy,85,IU Indianapolis,alias
+kenpom,Idaho,70,Idaho,exact
+kenpom,Idaho St.,304,Idaho State,exact
+kenpom,Illinois,356,Illinois,exact
+kenpom,Illinois Chicago,82,UIC,alias
+kenpom,Illinois St.,2287,Illinois State,exact
+kenpom,Incarnate Word,2916,Incarnate Word,exact
+kenpom,Indiana,84,Indiana,exact
+kenpom,Indiana St.,282,Indiana State,exact
+kenpom,Iona,314,Iona,exact
+kenpom,Iowa,2294,Iowa,exact
+kenpom,Iowa St.,66,Iowa State,exact
+kenpom,Jackson St.,2296,Jackson State,exact
+kenpom,Jacksonville,294,Jacksonville,exact
+kenpom,Jacksonville St.,55,Jacksonville State,exact
+kenpom,James Madison,256,James Madison,exact
+kenpom,Kansas,2305,Kansas,exact
+kenpom,Kansas City,140,Kansas City,exact
+kenpom,Kansas St.,2306,Kansas State,exact
+kenpom,Kennesaw St.,338,Kennesaw State,exact
+kenpom,Kent St.,2309,Kent State,exact
+kenpom,Kentucky,96,Kentucky,exact
+kenpom,LIU,112358,Long Island University,alias
+kenpom,LSU,99,LSU,exact
+kenpom,LSU New Orleans,2443,LSU New Orleans,exact
+kenpom,La Salle,2325,La Salle,exact
+kenpom,Lafayette,322,Lafayette,exact
+kenpom,Lamar,2320,Lamar,exact
+kenpom,Le Moyne,2330,Le Moyne,exact
+kenpom,Lehigh,2329,Lehigh,exact
+kenpom,Liberty,2335,Liberty,exact
+kenpom,Lindenwood,2815,,alias
+kenpom,Lipscomb,288,Lipscomb,exact
+kenpom,Little Rock,2031,Little Rock,exact
+kenpom,Long Beach St.,299,Long Beach State,exact
+kenpom,Longwood,2344,Longwood,exact
+kenpom,Louisiana,309,Louisiana,exact
+kenpom,Louisiana Monroe,2433,UL Monroe,alias
+kenpom,Louisiana Tech,2348,Louisiana Tech,exact
+kenpom,Louisville,97,Louisville,exact
+kenpom,Loyola Chicago,2350,Loyola Chicago,alias
+kenpom,Loyola MD,2352,Loyola Maryland,alias
+kenpom,Loyola Marymount,2351,Loyola Marymount,exact
+kenpom,Maine,311,Maine,exact
+kenpom,Manhattan,2363,Manhattan,exact
+kenpom,Marist,2368,Marist,exact
+kenpom,Marquette,269,Marquette,exact
+kenpom,Marshall,276,Marshall,exact
+kenpom,Maryland,120,Maryland,exact
+kenpom,Maryland Eastern Shore,2379,Maryland Eastern Shore,alias
+kenpom,Massachusetts,113,Massachusetts,alias
+kenpom,McNeese,2377,McNeese,exact
+kenpom,Memphis,235,Memphis,exact
+kenpom,Mercer,2382,Mercer,exact
+kenpom,Mercyhurst,2385,Mercyhurst,exact
+kenpom,Merrimack,2771,Merrimack,exact
+kenpom,Miami FL,2390,Miami,alias
+kenpom,Miami OH,193,Miami (OH),alias
+kenpom,Michigan,130,Michigan,exact
+kenpom,Michigan St.,127,Michigan State,exact
+kenpom,Middle Tennessee,2393,Middle Tennessee,exact
+kenpom,Milwaukee,270,Milwaukee,alias
+kenpom,Minnesota,135,Minnesota,exact
+kenpom,Mississippi,145,Ole Miss,alias
+kenpom,Mississippi St.,344,Mississippi State,exact
+kenpom,Mississippi Valley St.,2400,Mississippi Valley State,alias
+kenpom,Missouri,142,Missouri,exact
+kenpom,Missouri St.,2623,Missouri State,exact
+kenpom,Monmouth,2405,Monmouth,exact
+kenpom,Montana,149,Montana,exact
+kenpom,Montana St.,147,Montana State,exact
+kenpom,Morehead St.,2413,Morehead State,exact
+kenpom,Morgan St.,2415,Morgan State,exact
+kenpom,Mount St. Mary's,116,Mount St. Mary's,alias
+kenpom,Murray St.,93,Murray State,exact
+kenpom,N.C. State,152,NC State,exact
+kenpom,NJIT,2885,NJIT,exact
+kenpom,Navy,2426,Navy,exact
+kenpom,Nebraska,158,Nebraska,exact
+kenpom,Nebraska Omaha,2437,Omaha,alias
+kenpom,Nevada,2440,Nevada,exact
+kenpom,New Hampshire,160,New Hampshire,exact
+kenpom,New Haven,2441,New Haven,exact
+kenpom,New Mexico,167,New Mexico,exact
+kenpom,New Mexico St.,166,New Mexico State,exact
+kenpom,New Orleans,2443,LSU New Orleans,alias
+kenpom,Niagara,315,Niagara,exact
+kenpom,Nicholls,2447,Nicholls,exact
+kenpom,Norfolk St.,2450,Norfolk State,exact
+kenpom,North Alabama,2453,North Alabama,exact
+kenpom,North Carolina,153,North Carolina,exact
+kenpom,North Carolina A&T,2448,North Carolina A&T,exact
+kenpom,North Carolina Central,2428,North Carolina Central,exact
+kenpom,North Dakota,155,North Dakota,exact
+kenpom,North Dakota St.,2449,North Dakota State,exact
+kenpom,North Florida,2454,North Florida,exact
+kenpom,North Texas,249,North Texas,exact
+kenpom,Northeastern,111,Northeastern,exact
+kenpom,Northern Arizona,2464,Northern Arizona,exact
+kenpom,Northern Colorado,2458,Northern Colorado,exact
+kenpom,Northern Illinois,2459,Northern Illinois,exact
+kenpom,Northern Iowa,2460,Northern Iowa,exact
+kenpom,Northern Kentucky,94,Northern Kentucky,exact
+kenpom,Northwestern,77,Northwestern,exact
+kenpom,Northwestern St.,2466,Northwestern State,exact
+kenpom,Notre Dame,87,Notre Dame,exact
+kenpom,Oakland,2473,Oakland,exact
+kenpom,Ohio,195,Ohio,exact
+kenpom,Ohio St.,194,Ohio State,exact
+kenpom,Oklahoma,201,Oklahoma,exact
+kenpom,Oklahoma St.,197,Oklahoma State,exact
+kenpom,Old Dominion,295,Old Dominion,exact
+kenpom,Oral Roberts,198,Oral Roberts,exact
+kenpom,Oregon,2483,Oregon,exact
+kenpom,Oregon St.,204,Oregon State,exact
+kenpom,Pacific,279,Pacific,exact
+kenpom,Penn,219,Pennsylvania,alias
+kenpom,Penn St.,213,Penn State,exact
+kenpom,Pepperdine,2492,Pepperdine,exact
+kenpom,Pittsburgh,221,Pittsburgh,alias
+kenpom,Portland,2501,Portland,exact
+kenpom,Portland St.,2502,Portland State,exact
+kenpom,Prairie View A&M,2504,Prairie View A&M,exact
+kenpom,Presbyterian,2506,Presbyterian,exact
+kenpom,Princeton,163,Princeton,exact
+kenpom,Providence,2507,Providence,exact
+kenpom,Purdue,2509,Purdue,exact
+kenpom,Purdue Fort Wayne,2870,Purdue Fort Wayne,exact
+kenpom,Queens,2511,,alias
+kenpom,Quinnipiac,2514,Quinnipiac,exact
+kenpom,Radford,2515,Radford,exact
+kenpom,Rhode Island,227,Rhode Island,exact
+kenpom,Rice,242,Rice,exact
+kenpom,Richmond,257,Richmond,exact
+kenpom,Rider,2520,Rider,exact
+kenpom,Robert Morris,2523,Robert Morris,exact
+kenpom,Rutgers,164,Rutgers,exact
+kenpom,SIUE,2565,SIU Edwardsville,alias
+kenpom,SMU,2567,SMU,exact
+kenpom,Sacramento St.,16,Sacramento State,exact
+kenpom,Sacred Heart,2529,Sacred Heart,exact
+kenpom,Saint Joseph's,2603,Saint Joseph's,exact
+kenpom,Saint Louis,139,Saint Louis,exact
+kenpom,Saint Mary's,2608,Saint Mary's,exact
+kenpom,Saint Peter's,2612,Saint Peter's,exact
+kenpom,Sam Houston St.,2534,Sam Houston,alias
+kenpom,Samford,2535,Samford,exact
+kenpom,San Diego,301,San Diego,exact
+kenpom,San Diego St.,21,San Diego State,exact
+kenpom,San Francisco,2539,San Francisco,exact
+kenpom,San Jose St.,23,San José State,fuzzy
+kenpom,Santa Clara,2541,Santa Clara,exact
+kenpom,Seattle,2547,Seattle U,alias
+kenpom,Seton Hall,2550,Seton Hall,exact
+kenpom,Siena,2561,Siena,exact
+kenpom,South Alabama,6,South Alabama,exact
+kenpom,South Carolina,2579,South Carolina,exact
+kenpom,South Carolina St.,2569,South Carolina State,exact
+kenpom,South Dakota,233,South Dakota,exact
+kenpom,South Dakota St.,2571,South Dakota State,exact
+kenpom,South Florida,58,South Florida,exact
+kenpom,Southeast Missouri,2546,Southeast Missouri State,alias
+kenpom,Southeastern Louisiana,2545,SE Louisiana,alias
+kenpom,Southern,2582,Southern,exact
+kenpom,Southern Illinois,79,Southern Illinois,exact
+kenpom,Southern Indiana,88,,alias
+kenpom,Southern Miss,2572,Southern Miss,alias
+kenpom,Southern Utah,253,Southern Utah,exact
+kenpom,St. Bonaventure,179,St. Bonaventure,exact
+kenpom,St. John's,2599,St. John's,exact
+kenpom,St. Thomas,2900,St. Thomas,exact
+kenpom,Stanford,24,Stanford,exact
+kenpom,Stephen F. Austin,2617,Stephen F. Austin,alias
+kenpom,Stetson,56,Stetson,exact
+kenpom,Stonehill,284,Stonehill,exact
+kenpom,Stony Brook,2619,Stony Brook,exact
+kenpom,Syracuse,183,Syracuse,exact
+kenpom,TCU,2628,TCU,exact
+kenpom,Tarleton St.,2627,Tarleton State,exact
+kenpom,Temple,218,Temple,exact
+kenpom,Tennessee,2633,Tennessee,exact
+kenpom,Tennessee Martin,2630,UT Martin,alias
+kenpom,Tennessee St.,2634,Tennessee State,exact
+kenpom,Tennessee Tech,2635,Tennessee Tech,exact
+kenpom,Texas,251,Texas,exact
+kenpom,Texas A&M,245,Texas A&M,exact
+kenpom,Texas A&M Corpus Chris,357,Texas A&M-Corpus Christi,alias
+kenpom,Texas Southern,2640,Texas Southern,exact
+kenpom,Texas St.,326,Texas State,exact
+kenpom,Texas Tech,2641,Texas Tech,exact
+kenpom,The Citadel,2643,The Citadel,exact
+kenpom,Toledo,2649,Toledo,exact
+kenpom,Towson,119,Towson,exact
+kenpom,Troy,2653,Troy,exact
+kenpom,Tulane,2655,Tulane,exact
+kenpom,Tulsa,202,Tulsa,exact
+kenpom,UAB,5,UAB,exact
+kenpom,UC Davis,302,UC Davis,exact
+kenpom,UC Irvine,300,UC Irvine,exact
+kenpom,UC Riverside,27,UC Riverside,exact
+kenpom,UC San Diego,28,UC San Diego,exact
+kenpom,UC Santa Barbara,2540,UC Santa Barbara,exact
+kenpom,UCF,2116,UCF,exact
+kenpom,UCLA,26,UCLA,exact
+kenpom,UMBC,2378,UMBC,exact
+kenpom,UMass Lowell,2349,UMass Lowell,exact
+kenpom,UNC Asheville,2427,UNC Asheville,exact
+kenpom,UNC Greensboro,2430,UNC Greensboro,exact
+kenpom,UNC Wilmington,350,UNC Wilmington,exact
+kenpom,UNLV,2439,UNLV,exact
+kenpom,USC,30,USC,exact
+kenpom,USC Upstate,2908,South Carolina Upstate,fuzzy
+kenpom,UT Arlington,250,UT Arlington,exact
+kenpom,UT Rio Grande Valley,292,UT Rio Grande Valley,alias
+kenpom,UTEP,2638,UTEP,exact
+kenpom,UTSA,2636,UTSA,exact
+kenpom,Utah,254,Utah,exact
+kenpom,Utah St.,328,Utah State,exact
+kenpom,Utah Tech,3101,Utah Tech,exact
+kenpom,Utah Valley,3084,Utah Valley,exact
+kenpom,VCU,2670,VCU,exact
+kenpom,VMI,2678,VMI,exact
+kenpom,Valparaiso,2674,Valparaiso,exact
+kenpom,Vanderbilt,238,Vanderbilt,exact
+kenpom,Vermont,261,Vermont,exact
+kenpom,Villanova,222,Villanova,exact
+kenpom,Virginia,258,Virginia,exact
+kenpom,Virginia Tech,259,Virginia Tech,exact
+kenpom,Wagner,2681,Wagner,exact
+kenpom,Wake Forest,154,Wake Forest,exact
+kenpom,Washington,264,Washington,exact
+kenpom,Washington St.,265,Washington State,exact
+kenpom,Weber St.,2692,Weber State,exact
+kenpom,West Florida,2697,West Florida,exact
+kenpom,West Georgia,2698,West Georgia,exact
+kenpom,West Virginia,277,West Virginia,exact
+kenpom,Western Carolina,2717,Western Carolina,exact
+kenpom,Western Illinois,2710,Western Illinois,exact
+kenpom,Western Kentucky,98,Western Kentucky,exact
+kenpom,Western Michigan,2711,Western Michigan,exact
+kenpom,Wichita St.,2724,Wichita State,exact
+kenpom,William & Mary,2729,William & Mary,exact
+kenpom,Winthrop,2737,Winthrop,exact
+kenpom,Wisconsin,275,Wisconsin,exact
+kenpom,Wofford,2747,Wofford,exact
+kenpom,Wright St.,2750,Wright State,exact
+kenpom,Wyoming,2751,Wyoming,exact
+kenpom,Xavier,2752,Xavier,exact
+kenpom,Yale,43,Yale,exact
+kenpom,Youngstown St.,2754,Youngstown State,exact
+teamrankings,AR-Pine Bluff,2029,Arkansas-Pine Bluff,exact
+teamrankings,Abl Christian,2000,Abilene Christian,alias
+teamrankings,Air Force,2005,Air Force,exact
+teamrankings,Akron,2006,Akron,exact
+teamrankings,Alabama,333,Alabama,exact
+teamrankings,Alabama A&M,2010,Alabama A&M,exact
+teamrankings,Alabama St,2011,Alabama State,exact
+teamrankings,Albany,399,UAlbany,alias
+teamrankings,Alcorn St,2016,Alcorn State,exact
+teamrankings,American,44,American University,exact
+teamrankings,App State,2026,App State,alias
+teamrankings,Arizona,12,Arizona,exact
+teamrankings,Arizona St,9,Arizona State,exact
+teamrankings,Arkansas,8,Arkansas,exact
+teamrankings,Arkansas St,2032,Arkansas State,exact
+teamrankings,Army,349,Army,exact
+teamrankings,Auburn,2,Auburn,exact
+teamrankings,Austin Peay,2046,Austin Peay,exact
+teamrankings,BYU,252,BYU,exact
+teamrankings,Ball St,2050,Ball State,exact
+teamrankings,Baylor,239,Baylor,exact
+teamrankings,Bellarmine,91,Bellarmine,exact
+teamrankings,Belmont,2057,Belmont,exact
+teamrankings,Bethune,2065,Bethune-Cookman,exact
+teamrankings,Binghamton,2066,Binghamton,exact
+teamrankings,Boise St,68,Boise State,exact
+teamrankings,Boston College,103,Boston College,exact
+teamrankings,Boston U,104,Boston University,exact
+teamrankings,Bowling Green,189,Bowling Green,exact
+teamrankings,Bradley,71,Bradley,exact
+teamrankings,Brown,225,Brown,exact
+teamrankings,Bryant,2803,Bryant,exact
+teamrankings,Bucknell,2083,Bucknell,exact
+teamrankings,Buffalo,2084,Buffalo,exact
+teamrankings,Butler,2086,Butler,exact
+teamrankings,C Arkansas,2110,Central Arkansas,exact
+teamrankings,C Connecticut,2115,Central Connecticut,exact
+teamrankings,C Michigan,2117,Central Michigan,exact
+teamrankings,CS Bakersfield,2934,Cal State Bakersfield,alias
+teamrankings,CS Fullerton,2239,Cal State Fullerton,alias
+teamrankings,CS Northridge,2463,Cal State Northridge,alias
+teamrankings,Cal Baptist,2856,California Baptist,fuzzy
+teamrankings,Cal Poly,13,Cal Poly,exact
+teamrankings,California,25,California,exact
+teamrankings,Campbell,2097,Campbell,exact
+teamrankings,Canisius,2099,Canisius,exact
+teamrankings,Charleston,232,Charleston,exact
+teamrankings,Charleston So,2127,Charleston Southern,exact
+teamrankings,Charlotte,2429,Charlotte,exact
+teamrankings,Chattanooga,236,Chattanooga,exact
+teamrankings,Chicago St,2130,Chicago State,exact
+teamrankings,Cincinnati,2132,Cincinnati,exact
+teamrankings,Clemson,228,Clemson,exact
+teamrankings,Cleveland St,325,Cleveland State,exact
+teamrankings,Coastal Car,324,Coastal Carolina,alias
+teamrankings,Colgate,2142,Colgate,exact
+teamrankings,Colorado,38,Colorado,exact
+teamrankings,Colorado St,36,Colorado State,exact
+teamrankings,Columbia,171,Columbia,exact
+teamrankings,Coppin St,2154,Coppin State,exact
+teamrankings,Cornell,172,Cornell,exact
+teamrankings,Creighton,156,Creighton,exact
+teamrankings,Dartmouth,159,Dartmouth,exact
+teamrankings,Davidson,2166,Davidson,exact
+teamrankings,Dayton,2168,Dayton,exact
+teamrankings,DePaul,305,DePaul,exact
+teamrankings,Delaware,48,Delaware,exact
+teamrankings,Delaware St,2169,Delaware State,exact
+teamrankings,Denver,2172,Denver,exact
+teamrankings,Detroit Mercy,2174,Detroit Mercy,exact
+teamrankings,Drake,2181,Drake,exact
+teamrankings,Drexel,2182,Drexel,exact
+teamrankings,Duke,150,Duke,exact
+teamrankings,Duquesne,2184,Duquesne,exact
+teamrankings,E Carolina,151,East Carolina,exact
+teamrankings,E Illinois,2197,Eastern Illinois,exact
+teamrankings,E Kentucky,2198,Eastern Kentucky,exact
+teamrankings,E Michigan,2199,Eastern Michigan,exact
+teamrankings,E Tennessee St,2193,East Tennessee State,exact
+teamrankings,E Texas A&M,2837,East Texas A&M,exact
+teamrankings,E Washington,331,Eastern Washington,exact
+teamrankings,Elon,2210,Elon,exact
+teamrankings,Evansville,339,Evansville,exact
+teamrankings,F Dickinson,161,Fairleigh Dickinson,alias
+teamrankings,FGCU,526,Florida Gulf Coast,exact
+teamrankings,Fairfield,2217,Fairfield,exact
+teamrankings,Florida,57,Florida,exact
+teamrankings,Florida A&M,50,Florida A&M,exact
+teamrankings,Florida Atlantic,2226,Florida Atlantic,exact
+teamrankings,Florida Intl,2229,Florida International,exact
+teamrankings,Florida St,52,Florida State,exact
+teamrankings,Fordham,2230,Fordham,exact
+teamrankings,Fresno St,278,Fresno State,exact
+teamrankings,Furman,231,Furman,exact
+teamrankings,G Washington,45,George Washington,exact
+teamrankings,Gardner-Webb,2241,Gardner-Webb,alias
+teamrankings,George Mason,2244,George Mason,exact
+teamrankings,Georgetown,46,Georgetown,exact
+teamrankings,Georgia,61,Georgia,exact
+teamrankings,Georgia So,290,Georgia Southern,alias
+teamrankings,Georgia St,2247,Georgia State,exact
+teamrankings,Georgia Tech,59,Georgia Tech,exact
+teamrankings,Gonzaga,2250,Gonzaga,exact
+teamrankings,Grambling,2755,Grambling,exact
+teamrankings,Grand Canyon,2253,Grand Canyon,exact
+teamrankings,Green Bay,2739,Green Bay,alias
+teamrankings,Hampton,2261,Hampton,exact
+teamrankings,Hartford,42,,alias
+teamrankings,Harvard,108,Harvard,exact
+teamrankings,Hawai'i,62,Hawai'i,alias
+teamrankings,High Point,2272,High Point,exact
+teamrankings,Hofstra,2275,Hofstra,exact
+teamrankings,Holy Cross,107,Holy Cross,exact
+teamrankings,Hou Christian,2277,Houston Christian,exact
+teamrankings,Houston,248,Houston,exact
+teamrankings,Howard,47,Howard,exact
+teamrankings,IU Indy,85,IU Indianapolis,alias
+teamrankings,Idaho,70,Idaho,exact
+teamrankings,Idaho St,304,Idaho State,exact
+teamrankings,Illinois,356,Illinois,exact
+teamrankings,Illinois Chicago,82,UIC,alias
+teamrankings,Illinois St,2287,Illinois State,exact
+teamrankings,Incarnate Word,2916,Incarnate Word,exact
+teamrankings,Indiana,84,Indiana,exact
+teamrankings,Indiana St,282,Indiana State,exact
+teamrankings,Iona,314,Iona,exact
+teamrankings,Iowa,2294,Iowa,exact
+teamrankings,Iowa St,66,Iowa State,exact
+teamrankings,J Madison,256,James Madison,alias
+teamrankings,Jackson St,2296,Jackson State,exact
+teamrankings,Jacksonville,294,Jacksonville,exact
+teamrankings,Jacksonville St,55,Jacksonville State,exact
+teamrankings,Kansas,2305,Kansas,exact
+teamrankings,Kansas City,140,Kansas City,exact
+teamrankings,Kansas St,2306,Kansas State,exact
+teamrankings,Kennesaw St,338,Kennesaw State,exact
+teamrankings,Kent St,2309,Kent State,exact
+teamrankings,Kentucky,96,Kentucky,exact
+teamrankings,LIU,112358,Long Island University,alias
+teamrankings,LSU,99,LSU,exact
+teamrankings,LSU New Orleans,2443,LSU New Orleans,exact
+teamrankings,La Salle,2325,La Salle,exact
+teamrankings,Lafayette,322,Lafayette,exact
+teamrankings,Lamar,2320,Lamar,exact
+teamrankings,Le Moyne,2330,Le Moyne,exact
+teamrankings,Lehigh,2329,Lehigh,exact
+teamrankings,Liberty,2335,Liberty,exact
+teamrankings,Lindenwood,2815,,alias
+teamrankings,Lipscomb,288,Lipscomb,exact
+teamrankings,Little Rock,2031,Little Rock,exact
+teamrankings,Long Beach St,299,Long Beach State,exact
+teamrankings,Longwood,2344,Longwood,exact
+teamrankings,Louisiana,309,Louisiana,exact
+teamrankings,Louisiana Tech,2348,Louisiana Tech,exact
+teamrankings,Louisville,97,Louisville,exact
+teamrankings,Loyola Chi,2350,Loyola Chicago,alias
+teamrankings,Loyola MD,2352,Loyola Maryland,alias
+teamrankings,Loyola Mymt,2351,Loyola Marymount,alias
+teamrankings,Maine,311,Maine,exact
+teamrankings,Manhattan,2363,Manhattan,exact
+teamrankings,Marist,2368,Marist,exact
+teamrankings,Marquette,269,Marquette,exact
+teamrankings,Marshall,276,Marshall,exact
+teamrankings,Maryland,120,Maryland,exact
+teamrankings,Maryland ES,2379,Maryland Eastern Shore,alias
+teamrankings,McNeese,2377,McNeese,exact
+teamrankings,Memphis,235,Memphis,exact
+teamrankings,Mercer,2382,Mercer,exact
+teamrankings,Mercyhurst,2385,Mercyhurst,exact
+teamrankings,Merrimack,2771,Merrimack,exact
+teamrankings,Miami,2390,Miami,exact
+teamrankings,Miami OH,193,Miami (OH),alias
+teamrankings,Michigan,130,Michigan,exact
+teamrankings,Michigan St,127,Michigan State,exact
+teamrankings,Middle Tenn,2393,Middle Tennessee,alias
+teamrankings,Milwaukee,270,Milwaukee,alias
+teamrankings,Minnesota,135,Minnesota,exact
+teamrankings,Miss Valley St,2400,Mississippi Valley State,exact
+teamrankings,Mississippi,145,Ole Miss,alias
+teamrankings,Mississippi St,344,Mississippi State,exact
+teamrankings,Missouri,142,Missouri,exact
+teamrankings,Missouri St,2623,Missouri State,exact
+teamrankings,Monmouth,2405,Monmouth,exact
+teamrankings,Montana,149,Montana,exact
+teamrankings,Montana St,147,Montana State,exact
+teamrankings,Morehead St,2413,Morehead State,exact
+teamrankings,Morgan St,2415,Morgan State,exact
+teamrankings,Mt St Mary's,116,Mount St. Mary's,alias
+teamrankings,Murray St,93,Murray State,exact
+teamrankings,N Alabama,2453,North Alabama,exact
+teamrankings,N Arizona,2464,Northern Arizona,exact
+teamrankings,N Colorado,2458,Northern Colorado,exact
+teamrankings,N Dakota St,2449,North Dakota State,exact
+teamrankings,N Florida,2454,North Florida,exact
+teamrankings,N Illinois,2459,Northern Illinois,exact
+teamrankings,N Iowa,2460,Northern Iowa,alias
+teamrankings,N Kentucky,94,Northern Kentucky,exact
+teamrankings,N Texas,249,North Texas,exact
+teamrankings,NC A&T,2448,North Carolina A&T,exact
+teamrankings,NC Asheville,2427,UNC Asheville,alias
+teamrankings,NC Central,2428,North Carolina Central,exact
+teamrankings,NC Greensboro,2430,UNC Greensboro,fuzzy
+teamrankings,NC State,152,NC State,exact
+teamrankings,NC Wilmington,350,UNC Wilmington,fuzzy
+teamrankings,NJIT,2885,NJIT,exact
+teamrankings,NW State,2466,Northwestern State,fuzzy
+teamrankings,Navy,2426,Navy,exact
+teamrankings,Nebraska,158,Nebraska,exact
+teamrankings,Nevada,2440,Nevada,exact
+teamrankings,New Hampshire,160,New Hampshire,exact
+teamrankings,New Haven,2441,New Haven,exact
+teamrankings,New Mexico,167,New Mexico,exact
+teamrankings,New Mexico St,166,New Mexico State,exact
+teamrankings,New Orleans,2443,LSU New Orleans,alias
+teamrankings,Niagara,315,Niagara,exact
+teamrankings,Nicholls,2447,Nicholls,exact
+teamrankings,Norfolk St,2450,Norfolk State,exact
+teamrankings,North Carolina,153,North Carolina,exact
+teamrankings,North Dakota,155,North Dakota,exact
+teamrankings,Northeastern,111,Northeastern,exact
+teamrankings,Northwestern,77,Northwestern,exact
+teamrankings,Notre Dame,87,Notre Dame,exact
+teamrankings,Oakland,2473,Oakland,exact
+teamrankings,Ohio,195,Ohio,exact
+teamrankings,Ohio St,194,Ohio State,exact
+teamrankings,Oklahoma,201,Oklahoma,exact
+teamrankings,Oklahoma St,197,Oklahoma State,exact
+teamrankings,Old Dominion,295,Old Dominion,exact
+teamrankings,Omaha,2437,Omaha,exact
+teamrankings,Oral Roberts,198,Oral Roberts,exact
+teamrankings,Oregon,2483,Oregon,exact
+teamrankings,Oregon St,204,Oregon State,exact
+teamrankings,Pacific,279,Pacific,exact
+teamrankings,Penn,219,Pennsylvania,alias
+teamrankings,Penn St,213,Penn State,exact
+teamrankings,Pepperdine,2492,Pepperdine,exact
+teamrankings,Pittsburgh,221,Pittsburgh,alias
+teamrankings,Portland,2501,Portland,exact
+teamrankings,Portland St,2502,Portland State,exact
+teamrankings,Prairie View,2504,Prairie View A&M,exact
+teamrankings,Presbyterian,2506,Presbyterian,exact
+teamrankings,Princeton,163,Princeton,exact
+teamrankings,Providence,2507,Providence,exact
+teamrankings,Purdue,2509,Purdue,exact
+teamrankings,Purdue FW,2870,Purdue Fort Wayne,exact
+teamrankings,Queens,2511,,alias
+teamrankings,Quinnipiac,2514,Quinnipiac,exact
+teamrankings,Radford,2515,Radford,exact
+teamrankings,Rhode Island,227,Rhode Island,exact
+teamrankings,Rice,242,Rice,exact
+teamrankings,Richmond,257,Richmond,exact
+teamrankings,Rider,2520,Rider,exact
+teamrankings,Robert Morris,2523,Robert Morris,exact
+teamrankings,Rutgers,164,Rutgers,exact
+teamrankings,S Alabama,6,South Alabama,exact
+teamrankings,S Carolina St,2569,South Carolina State,exact
+teamrankings,S Dakota St,2571,South Dakota State,exact
+teamrankings,S Florida,58,South Florida,exact
+teamrankings,S Illinois,79,Southern Illinois,exact
+teamrankings,S Indiana,88,,alias
+teamrankings,S Utah,253,Southern Utah,alias
+teamrankings,SC Upstate,2908,South Carolina Upstate,exact
+teamrankings,SE Louisiana,2545,SE Louisiana,exact
+teamrankings,SE Missouri St,2546,Southeast Missouri State,alias
+teamrankings,SF Austin,2617,Stephen F. Austin,alias
+teamrankings,SIU Edward,2565,SIU Edwardsville,alias
+teamrankings,SMU,2567,SMU,exact
+teamrankings,Sacramento St,16,Sacramento State,exact
+teamrankings,Sacred Heart,2529,Sacred Heart,exact
+teamrankings,Saint Joseph's,2603,Saint Joseph's,exact
+teamrankings,Saint Louis,139,Saint Louis,exact
+teamrankings,Saint Mary's,2608,Saint Mary's,exact
+teamrankings,Saint Peter's,2612,Saint Peter's,exact
+teamrankings,Sam Houston,2534,Sam Houston,exact
+teamrankings,Samford,2535,Samford,exact
+teamrankings,San Diego,301,San Diego,exact
+teamrankings,San Diego St,21,San Diego State,exact
+teamrankings,San Francisco,2539,San Francisco,exact
+teamrankings,San Jose St,23,San José State,fuzzy
+teamrankings,Santa Clara,2541,Santa Clara,exact
+teamrankings,Seattle,2547,Seattle U,alias
+teamrankings,Seton Hall,2550,Seton Hall,exact
+teamrankings,Siena,2561,Siena,exact
+teamrankings,South Carolina,2579,South Carolina,exact
+teamrankings,South Dakota,233,South Dakota,exact
+teamrankings,Southern,2582,Southern,exact
+teamrankings,Southern Miss,2572,Southern Miss,alias
+teamrankings,St Bonaventure,179,St. Bonaventure,exact
+teamrankings,St Fran (NY),2597,,alias
+teamrankings,St Francis PA,2598,,alias
+teamrankings,St John's,2599,St. John's,exact
+teamrankings,St Thomas,2900,St. Thomas,exact
+teamrankings,Stanford,24,Stanford,exact
+teamrankings,Stetson,56,Stetson,exact
+teamrankings,Stonehill,284,Stonehill,exact
+teamrankings,Stony Brook,2619,Stony Brook,exact
+teamrankings,Syracuse,183,Syracuse,exact
+teamrankings,TCU,2628,TCU,exact
+teamrankings,Tarleton St,2627,Tarleton State,exact
+teamrankings,Temple,218,Temple,exact
+teamrankings,Tenn Tech,2635,Tennessee Tech,alias
+teamrankings,Tennessee,2633,Tennessee,exact
+teamrankings,Tennessee St,2634,Tennessee State,exact
+teamrankings,Texas,251,Texas,exact
+teamrankings,Texas A&M,245,Texas A&M,exact
+teamrankings,Texas A&M-CC,357,Texas A&M-Corpus Christi,exact
+teamrankings,Texas So,2640,Texas Southern,alias
+teamrankings,Texas St,326,Texas State,exact
+teamrankings,Texas Tech,2641,Texas Tech,exact
+teamrankings,The Citadel,2643,The Citadel,exact
+teamrankings,Toledo,2649,Toledo,exact
+teamrankings,Towson,119,Towson,exact
+teamrankings,Troy,2653,Troy,exact
+teamrankings,Tulane,2655,Tulane,exact
+teamrankings,Tulsa,202,Tulsa,exact
+teamrankings,UAB,5,UAB,exact
+teamrankings,UC Davis,302,UC Davis,exact
+teamrankings,UC Irvine,300,UC Irvine,exact
+teamrankings,UC Riverside,27,UC Riverside,exact
+teamrankings,UCF,2116,UCF,exact
+teamrankings,UCLA,26,UCLA,exact
+teamrankings,UCSB,2540,UC Santa Barbara,alias
+teamrankings,UCSD,28,UC San Diego,exact
+teamrankings,UConn,41,UConn,exact
+teamrankings,UL Monroe,2433,UL Monroe,exact
+teamrankings,UMBC,2378,UMBC,exact
+teamrankings,UMass,113,Massachusetts,exact
+teamrankings,UMass Lowell,2349,UMass Lowell,exact
+teamrankings,UNLV,2439,UNLV,exact
+teamrankings,USC,30,USC,exact
+teamrankings,UT Arlington,250,UT Arlington,exact
+teamrankings,UT Martin,2630,UT Martin,exact
+teamrankings,UT Rio Grande,292,UT Rio Grande Valley,exact
+teamrankings,UTEP,2638,UTEP,exact
+teamrankings,UTSA,2636,UTSA,exact
+teamrankings,Utah,254,Utah,exact
+teamrankings,Utah St,328,Utah State,exact
+teamrankings,Utah Tech,3101,Utah Tech,exact
+teamrankings,Utah Valley,3084,Utah Valley,exact
+teamrankings,VCU,2670,VCU,exact
+teamrankings,VMI,2678,VMI,exact
+teamrankings,Valparaiso,2674,Valparaiso,exact
+teamrankings,Vanderbilt,238,Vanderbilt,exact
+teamrankings,Vermont,261,Vermont,exact
+teamrankings,Villanova,222,Villanova,exact
+teamrankings,Virginia,258,Virginia,exact
+teamrankings,Virginia Tech,259,Virginia Tech,exact
+teamrankings,W Carolina,2717,Western Carolina,exact
+teamrankings,W Florida,2697,West Florida,exact
+teamrankings,W Georgia,2698,West Georgia,exact
+teamrankings,W Illinois,2710,Western Illinois,exact
+teamrankings,W Kentucky,98,Western Kentucky,alias
+teamrankings,W Michigan,2711,Western Michigan,exact
+teamrankings,Wagner,2681,Wagner,exact
+teamrankings,Wake Forest,154,Wake Forest,exact
+teamrankings,Washington,264,Washington,exact
+teamrankings,Washington St,265,Washington State,exact
+teamrankings,Weber St,2692,Weber State,exact
+teamrankings,West Virginia,277,West Virginia,exact
+teamrankings,Wichita St,2724,Wichita State,exact
+teamrankings,William & Mary,2729,William & Mary,exact
+teamrankings,Winthrop,2737,Winthrop,exact
+teamrankings,Wisconsin,275,Wisconsin,exact
+teamrankings,Wofford,2747,Wofford,exact
+teamrankings,Wright St,2750,Wright State,exact
+teamrankings,Wyoming,2751,Wyoming,exact
+teamrankings,Xavier,2752,Xavier,exact
+teamrankings,Yale,43,Yale,exact
+teamrankings,Youngstown St,2754,Youngstown State,exact

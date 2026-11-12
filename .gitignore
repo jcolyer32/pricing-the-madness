@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated data (rebuild with run.py / run_research.py)
+output/
+data/cache/
+data/last_good/
+data/snapshots/
+data/manual_html/
+data/research/
+data/espn_games.csv
+logs/
+
+# Office / macOS clutter
+~$*
+*.xlsm
+.DS_Store

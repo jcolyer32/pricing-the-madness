@@ -1,0 +1,44 @@
+# =====================================================================
+#  RESEARCH PIPELINE — "Pricing the Madness"
+#  Volatility, strength, and NCAA tournament outcomes in the NIL era.
+#  Run:  python run_research.py        (first run downloads ~5 seasons, ~15 min)
+# =====================================================================
+
+# Season = the year it ENDS. Ratings/volatility use only games played on or
+# before Selection Sunday, so nothing from the tournament leaks into the model.
+seasons:
+  2022: {start: 2021-11-01, selection_sunday: 2022-03-13, end: 2022-04-05}
+  2023: {start: 2022-11-01, selection_sunday: 2023-03-12, end: 2023-04-04}
+  2024: {start: 2023-11-01, selection_sunday: 2024-03-17, end: 2024-04-09}
+  2025: {start: 2024-11-01, selection_sunday: 2025-03-16, end: 2025-04-08}
+  2026: {start: 2025-11-01, selection_sunday: 2026-03-15, end: 2026-04-07}
+  # Add the upcoming season once it is under way. Before the tournament is played,
+  # put the bracket in data/research/bracket_2027.csv to get championship odds.
+  # 2027: {start: 2026-11-01, selection_sunday: 2027-03-14, end: 2027-04-06}
+
+output:
+  workbook: output/ncaam_research.xlsx          # open this in Excel
+  gretl_folder: output/gretl                     # research_*.csv + ncaam_research_gretl.xlsx
+
+model:
+  min_games: 10            # a team needs this many D-I games before Selection Sunday
+  margin_cap: null         # e.g. 25 to limit blowouts (robustness check); null = raw margins
+  ridge: 0.5               # small penalty that keeps ratings stable early in a season
+  shrink_games: 15         # volatility shrinkage: a team with n games keeps n/(n+15) of its own estimate
+  simulations: 20000       # Monte Carlo brackets per season
+  seed: 2026               # random seed, so every run gives identical results
+
+# TeamRankings numbers AS OF Selection Sunday (optional extra controls + an outside
+# rating to benchmark against). Set enabled: false to run on ESPN data alone.
+teamrankings:
+  enabled: true
+  stats:
+    - {slug: possessions-per-game,              name: Poss}
+    - {slug: turnovers-per-possession,          name: TOV_Poss}
+    - {slug: opponent-turnovers-per-possession, name: OppTOV_Poss}
+    - {slug: offensive-rebounding-pct,          name: ORB_Pct}
+    - {slug: effective-field-goal-pct,          name: eFG}
+    - {slug: opponent-effective-field-goal-pct, name: OppeFG}
+  keep_columns: [Season]
+  rankings:
+    - {slug: predictive-by-other, name: TR_Predictive}

@@ -1,0 +1,9 @@
+pandas>=2.0
+requests>=2.31
+lxml>=4.9
+beautifulsoup4>=4.12
+openpyxl>=3.1
+xlsxwriter>=3.1      # writes .xlsx files gretl can read
+pyyaml>=6.0
+curl_cffi>=0.7      # browser-grade connections; gets past most bot blocks
+pytest>=7           # optional: for running the tests
